@@ -1,0 +1,60 @@
+Hello Professor Coriell,
+
+This is my submission for the Program 4 assignment,
+
+
+This project is based on the Pygame tutorial on Youtube by DaFluffyPotato
+The sprites and music are by DaFluffy Potato
+
+This is the link to the tutorial: https://youtu.be/2gABYM5M0ww?si=IKHIrj1fq0ML6idf
+
+
+Background:
+
+    I created everything myself and troubleshooted it all while watching the tutorial during the summer.
+I was interested in learning more python and I heard that Pygame was a good way to create GUI's and I looked up tutorials on how to implement Pygame back then.
+
+This project probably spanned a week and a half of following along and fixing mistakes that I would make and I learned a lot from the experience of following along the tutorial. Since this side project of mine met all the criteria for Program 4, I decided to submit it as my submission. I used the editor to create new levels and change the balancing of the first couple of levels, such as enemy count and location.
+
+
+Folders:
+
+There is a folder called Distribution that contains all the same code, but this file is just for the executable. The way that works is you just double click the Game.exe file in the folder and it will open up a separate window for you to play the game. That may be more reliable than the Game.py and Editor.py files, but I adjusted those so that they should work. Build is also used to run the Distribution folder and executable.
+
+The folder called data is for the images, maps, and sfx which are referenced to create all the entities, blocks, particles, tiles, and animations
+
+The folder called Scripts contains all the code and functions for the game
+
+
+Gameplay:
+
+For the assignment I came back and commented through all of the many different classes in the Scripts folder to give you a better understanding of the inner workings and how all of the code works. 
+
+You should be able to use the editor to create levels and save them as .json's, to be able to play your map you can rename it to the ( next available number ) + .json 
+(4.json) This will be iterated through and allow you to play your level in the actual game after level 4. 
+
+Editor controls:
+
+    UP ARROW    OR   W = Up          Shift = Hold to change the block orientation or type of decoration
+    LEFT ARROW  OR   A = Left        G = Toggle on-grid and off-grid mode
+    DOWN ARROW  OR   S = Down        T = Activate autotiles (Automatically adjusts placed tiles to the best orientation)
+    RIGHT ARROW OR   D = Right       Ctrl + s = Save level to .json file
+
+    Scroll Wheel = Change which tile/ decoration you are selecting
+
+    * Note: To load your level or any of the levels, change the LEVEL constant to the number before the .json ( under data, in the maps folder )
+
+
+You should also be able to play the game directly from the Game.py file. The goal of the game is to defeat every enemy in the level, you kill enemies by dashing through them. There are 4 levels available and after the fourth level the game ends. Can you beat every enemy and win the game?
+
+Game controls:
+
+    UP ARROW    OR   W  = Up        Shift = Player Dash
+    LEFT ARROW  OR   A  = Left    
+    DOWN ARROW  OR   S  = Down    
+    RIGHT ARROW OR   D  = Right   
+
+    * Note: You can double jump, wall slide, and wall jump *
+
+
+Thank you for reading, and enjoy the game!
